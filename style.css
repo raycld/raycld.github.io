@@ -46,6 +46,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', end
       z-index: 1;
     }
     
+    .time {
+       font-size: 25vw;
+       color:white;
+       position: absolute;
+       top: 50%;
+       transform: translateY(-50%);
+       width: 100%;
+       text-align: center;
+       display: block;
+    } 
+
     .cover {
         width: 100vw;
         height: 500px;
