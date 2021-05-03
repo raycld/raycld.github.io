@@ -7,7 +7,7 @@ html,
       left: 0;
       overflow-x: hidden;
       overflow-y: scroll;
-      -webKit-overflowing: touch;
+      -webKit-overflow-scrolling: touch;
      
       text-rendering: optimizeLegibility;
 	
@@ -45,3 +45,12 @@ html,
       Text-align: center
 
     }
+    
+    .cover {
+        Width: 100%;
+        Height: 250px;
+        Background: pink;
+        Display: block;
+        Position: relative;
+        Margin: 100px 0;
+     }
