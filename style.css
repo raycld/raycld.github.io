@@ -1,4 +1,4 @@
-I body,
+body,
 main {
       width: 100%;
       height: 100vh;
@@ -63,11 +63,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', end
         border-radius: 500px;
         background: red;
         display: block;
-        position: relative;
+        position: static;
         margin: 100px 0;
         float: none;
         bottom: 0;
         left: 0;
-        pointer-events: none;
+        pointer-events: all;
         z-index: 2;
      }
