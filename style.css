@@ -34,7 +34,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', end
       font-weight: 100;
       font-family: Helvetica, Arial;
     }
-
+    main img {
+      width: 100%;
+      margin: 25px auto;
+    }
     p, h1 {
       font-size: 90px;
       margin: 50px 0;
